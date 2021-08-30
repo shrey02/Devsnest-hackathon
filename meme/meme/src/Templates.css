@@ -1,0 +1,54 @@
+.container{
+    text-align:center;
+    margin:auto;
+    padding-left:100px;
+  }
+  .template{
+    width:30.333%;
+    display: inline-block;
+    margin:10px;
+    height: 200px;
+  }
+  .single-container {
+    text-align:center; 
+    background-repeat: no-repeat; 
+    height: 400px;
+    width: 400px; 
+  }
+  .image{
+    text-align:center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border:2px solid black;
+    background-position: center; 
+    height: 200px;
+    width: 300px;
+  }
+  .single-container .image{
+    text-align:center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border:2px solid black;
+    height: 400px;
+    width: 600px;
+    align-content: center;
+    margin: auto;
+    position: fixed;  
+    left: 32.5%;
+  }
+  .templates{
+        text-align:center;
+        margin: auto; 
+        display:flex;
+  }
+  button{
+    padding: 10px;
+    margin: 10px 10px 0px 2px;
+  }
+  input{
+    padding: 10px;
+    margin: 10px 10px 0px 2px;
+  }
+  .choose{
+    margin-left: -15.5px;
+  }

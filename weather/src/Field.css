@@ -1,0 +1,17 @@
+.search{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.buttontext{
+    margin-left:20px;
+}
+.text{
+    background:#e7e3e3;
+    width:250px;
+    border:none;
+    padding-left:20px ;
+    border-radius:25px;
+}
+textarea, input { outline: none; }

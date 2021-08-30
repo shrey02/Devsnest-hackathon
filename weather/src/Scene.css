@@ -1,0 +1,76 @@
+.button_container{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button_change {
+	height: 100%;
+	width: 90%;
+	cursor: pointer;
+	background-color: #08e1ae;
+	background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%);
+	border: none;
+	border-radius: 50px 50px 30px 30px;
+	transition: 1s;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+.wrapper {
+	height: 50px;
+	width: 165px;
+	-webkit-tap-highlight-color: transparent;
+	display: flex;
+    flex-direction:row; 
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.button_change:active {
+	border: none;
+	outline: none;
+}
+
+.button_change a {
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	text-decoration: none;
+	color: rgba(37, 61, 29, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.button_change:hover {
+	border-radius: 100px 100px 20px 20px;
+	height: 45px;
+	width: 165px;
+}
+
+.button_change:hover .scale {
+	letter-spacing: 5px;
+	font-size: 25px;
+	transition: 1s;
+}
+
+.rotate-1, .rotate-2, .rotate-3, .rotate-4 {
+	transition: 1s;
+}
+
+.button_change:hover .rotate-1 {
+	transform: rotate(15deg);
+}
+
+.button_change:hover .rotate-2 {
+	transform: rotate(-15deg);
+}
+
+.button_change:hover .rotate-3 {
+	transform: rotate(10deg);
+}
+
+.button_change:hover .rotate-4 {
+	transform: rotate(-25deg);
+}
+
+.button_change:active {
+	filter: hue-rotate(90deg);
+}
